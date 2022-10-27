@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using entityBasicoDAL;
+using EntityFrameworkDAL.Models.ViewModels;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using PostgreEntityFramework.Models;
 using System.Diagnostics;
 
@@ -6,16 +9,21 @@ namespace PostgreEntityFramework.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly AccesoDC context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(AccesoDC context)
         {
-            _logger = logger;
+            this.context = context;
         }
 
         public IActionResult Index()
         {
-            return View();
+            //Listamos en la vista los nombres de los empleados
+            var empleados = this.context.empleados.Include(e => e.nombre_empleado).Select(e => new EmpleadoViewModel
+            {
+                Nombre = e.nombre_empleado
+            });
+            return View(empleados);
         }
 
         public IActionResult Privacy()
