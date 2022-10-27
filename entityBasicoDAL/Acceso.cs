@@ -22,5 +22,8 @@ namespace entityBasicoDAL
         [Required]
         public string nivel_acceso { get; set; }
         public string desc_acceso { get; set; }
+        public List<Empleado> empleados { get; set; }
+
+
     }
 }
