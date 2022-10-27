@@ -1,0 +1,14 @@
+C:\Users\javi\source\repos\PostgreEntityFramework\entityBasicoDAL\obj\Debug\net6.0\entityBasicoDAL.csproj.AssemblyReference.cache
+C:\Users\javi\source\repos\PostgreEntityFramework\entityBasicoDAL\obj\Debug\net6.0\entityBasicoDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\javi\source\repos\PostgreEntityFramework\entityBasicoDAL\obj\Debug\net6.0\entityBasicoDAL.AssemblyInfoInputs.cache
+C:\Users\javi\source\repos\PostgreEntityFramework\entityBasicoDAL\obj\Debug\net6.0\entityBasicoDAL.AssemblyInfo.cs
+C:\Users\javi\source\repos\PostgreEntityFramework\entityBasicoDAL\obj\Debug\net6.0\entityBasicoDAL.csproj.CoreCompileInputs.cache
+C:\Users\javi\source\repos\PostgreEntityFramework\entityBasicoDAL\bin\Debug\net6.0\entityBasicoDAL.deps.json
+C:\Users\javi\source\repos\PostgreEntityFramework\entityBasicoDAL\bin\Debug\net6.0\entityBasicoDAL.runtimeconfig.json
+C:\Users\javi\source\repos\PostgreEntityFramework\entityBasicoDAL\bin\Debug\net6.0\entityBasicoDAL.dll
+C:\Users\javi\source\repos\PostgreEntityFramework\entityBasicoDAL\bin\Debug\net6.0\entityBasicoDAL.pdb
+C:\Users\javi\source\repos\PostgreEntityFramework\entityBasicoDAL\obj\Debug\net6.0\entityBasicoDAL.dll
+C:\Users\javi\source\repos\PostgreEntityFramework\entityBasicoDAL\obj\Debug\net6.0\refint\entityBasicoDAL.dll
+C:\Users\javi\source\repos\PostgreEntityFramework\entityBasicoDAL\obj\Debug\net6.0\entityBasicoDAL.pdb
+C:\Users\javi\source\repos\PostgreEntityFramework\entityBasicoDAL\obj\Debug\net6.0\entityBasicoDAL.genruntimeconfig.cache
+C:\Users\javi\source\repos\PostgreEntityFramework\entityBasicoDAL\obj\Debug\net6.0\ref\entityBasicoDAL.dll

@@ -1,8 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+using entityBasicoDAL;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddDbContext<AccesoDC>(
+    o => o.UseNpgsql(builder.Configuration.GetConnectionString("EFCConexion"))
+    );
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
