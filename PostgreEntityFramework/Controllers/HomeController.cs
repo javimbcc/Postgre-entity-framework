@@ -21,7 +21,7 @@ namespace PostgreEntityFramework.Controllers
             //Listamos en la vista los nombres de los empleados
             var empleados = this.context.empleados.Include(e => e.nombre_empleado).Select(e => new EmpleadoViewModel
             {
-                Nombre = e.nombre_empleado
+               Nombre = e.nombre_empleado
             });
             return View(empleados);
         }
